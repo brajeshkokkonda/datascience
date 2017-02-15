@@ -43,4 +43,4 @@ df1.iloc[0:2,[0,2]]
 df1.loc[0:2,['pname']]
 
 #grouping data in data frames
-df1.groupby('id').size()
+df1.groupby('pid').size()
